@@ -19,4 +19,4 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
       newPresence.member.roles.remove(roleid).catch(console.error);
     }
   }
-});```
+});
